@@ -1,21 +1,24 @@
 # PAL00
 Pseudomonas aeruginosa L00 phage mining
 
+1. Find phage using Vibrant
+2. Search for resistance genes in vibrant outputs using [RGI CARD](https://github.com/arpcard/rgi#load-card-reference-data)
+3. Search for virulence factors in vibrant outputs using [VFDB](http://www.mgc.ac.cn/VFs/main.htm)
+
+
 
 Download files from Sharepoint and transfer to Quest via WinSCP
 
 Create unique file name removing everything after the first period
-
 ```
 ls | cut -f1 -d. | uniq -c > samples_list.txt
-
 ```
 
 Use text file to submit array for sample processing
 Vibrant - find prophage
-Extract prophage files - analyze for ARGs and VF using RGI CARD and VFDB
 
-Add vibrant array
+
+
 rgi array - loose and strict
 
 
