@@ -1,4 +1,4 @@
-# PAL00
+# PA L00
 Pseudomonas aeruginosa L00 phage mining
 
 1. Find phage using Vibrant
@@ -13,14 +13,12 @@ Create unique file name removing everything after the first period
 ```
 ls | cut -f1 -d. | uniq -c > samples_list.txt
 ```
-
-Use text file to submit array for sample processing
-Vibrant - find prophage
+Vibrant version 1.2.0 used to identify prophage and viral sequences in PA fasta files
 
 
 
-rgi array - loose and strict
-
+[CARD database v2.1.4](https://card.mcmaster.ca/download)
+RGI used to compare all phage.combined.fna files output by vibrant with CARD database
 
 Make a blast database using the [VFDB](http://www.mgc.ac.cn/VFs/main.htm) (downloaded 8/17/2022)
 ```
@@ -28,3 +26,4 @@ module load blast/2.12.0
 gunzip VFDB_setB_nt.fas.gz
 makeblastdb -in VFDB_setB_nt.fasta -dbtype nucl -out VFDB_blastdb
 ```
+
