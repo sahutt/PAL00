@@ -19,7 +19,7 @@ Add vibrant array
 rgi array - loose and strict
 
 
-Make a blast database using the (VFDB)[http://www.mgc.ac.cn/VFs/main.htm] (downloaded 8/17/2022)
+Make a blast database using the [VFDB](http://www.mgc.ac.cn/VFs/main.htm) (downloaded 8/17/2022)
 ```
 module load blast/2.12.0
 gunzip VFDB_setB_nt.fas.gz
