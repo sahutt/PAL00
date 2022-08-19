@@ -17,8 +17,8 @@ ls | cut -f1 -d. | uniq -c > samples_list.txt
 See sample_list.txt
 
 3. Use [Vibrant](https://github.com/AnantharamanLab/VIBRANT) version 1.2.0 to identify prophage and viral sequences in PA fasta files
-    Bash script: vibrant_array.sh
-    Output file: combined_phage.fna which contains phage identified as prophage and lytic used for downstream analysis 
+   Bash script: vibrant_array.sh
+   Output file: combined_phage.fna which contains phage identified as prophage and lytic used for downstream analysis 
     
 4. Use [RGI CARD](https://github.com/arpcard/rgi#load-card-reference-data) with [CARD database v2.1.4](https://card.mcmaster.ca/download)
     to identify Resistance Genes in phage sequences
