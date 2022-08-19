@@ -36,7 +36,7 @@ gunzip VFDB_setB_nt.fas.gz
 makeblastdb -in VFDB_setB_nt.fasta -dbtype nucl -out VFDB_blastdb
 ```
 
-Create bash script using awk 
+Create bash script using awk /n
 awk file: VFblast.awk
 
 After creating awk file - execute the following command in the command line
