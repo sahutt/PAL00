@@ -36,7 +36,7 @@ gunzip VFDB_setB_nt.fas.gz
 makeblastdb -in VFDB_setB_nt.fasta -dbtype nucl -out VFDB_blastdb
 ```
 
-Create bash script using awk
+Create bash script using awk 
 awk file: VFblast.awk
 
 After creating awk file - execute the following command in the command line
@@ -44,7 +44,7 @@ After creating awk file - execute the following command in the command line
 awk -f VFblast.awk sample_list.txt > VFblast_out.sh
 ```
 Blast all vibrant outputs against custom database - creating pairwise and tabular outputs
-Bash script: VFblast.sh
+Bash script: VFblast.sh and VFblast_2.sh
 
 6. Blast prophage against eachother
 
